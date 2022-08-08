@@ -18,4 +18,5 @@ class Palette {
   );
 
   static const List<Color> shadowList =[Color(0x00FFFFFF), Color(0x88000000)];
+  static const Color grey600 =Color(0xff666666);
 }

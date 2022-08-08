@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:screens_ui/facebook_app/widgets/card_create_post.dart';
 import 'package:screens_ui/facebook_app/widgets/online_users_room.dart';
+import 'package:screens_ui/facebook_app/widgets/post_container.dart';
 import 'package:screens_ui/facebook_app/widgets/stories.dart';
 import 'package:screens_ui/facebook_app/widgets/user_avatar.dart';
 import '../widgets/icon_button.dart';
@@ -21,9 +22,15 @@ class ManagerWidget {
       CardOnlineRooms(users: users);
 
   static Widget userAvatar(String img, isActive, {bool frame = false}) =>
-      UserAvatar(imgUser: img, isActive: isActive, frame: frame,);
+      UserAvatar(
+        imgUser: img,
+        isActive: isActive,
+        frame: frame,
+      );
 
   static Widget stories(List<Story> storiesList) => StoriesView(
         storiesList: storiesList,
       );
+
+  static Widget onePost(Post post) => PostContainer(post: post,);
 }

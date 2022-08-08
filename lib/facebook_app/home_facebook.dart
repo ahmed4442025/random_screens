@@ -37,6 +37,12 @@ class _HomeFaceBookState extends State<HomeFaceBook> {
           SliverToBoxAdapter(
             child: ManagerWidget.stories(stories),
           ),
+          // ------------- posts
+          SliverList(
+            delegate: SliverChildBuilderDelegate((c, i) {
+              return ManagerWidget.onePost(posts[i]);
+            }, childCount: posts.length),
+          ),
           // -------------
           SliverToBoxAdapter(
             child: boxColor(Colors.green),
