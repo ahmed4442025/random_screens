@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:screens_ui/facebook_app/nav_screen.dart';
 import 'facebook_app/home_facebook.dart';
 import 'wallet_app/wallet_app_view.dart';
 
@@ -11,7 +12,7 @@ class HomeScrenat extends StatefulWidget {
 
 class _HomeScrenatState extends State<HomeScrenat> {
   List<Widget> pages() => [
-        HomeFaceBook(),
+        NavScreenFaceBook(),
         WalletAppView(),
       ];
 

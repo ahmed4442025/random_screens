@@ -43,19 +43,7 @@ class _HomeFaceBookState extends State<HomeFaceBook> {
               return ManagerWidget.onePost(posts[i]);
             }, childCount: posts.length),
           ),
-          // -------------
-          SliverToBoxAdapter(
-            child: boxColor(Colors.green),
-          ),
-          SliverToBoxAdapter(
-            child: boxColor(Colors.red),
-          ),
-          SliverToBoxAdapter(
-            child: boxColor(Colors.blue),
-          ),
-          SliverToBoxAdapter(
-            child: boxColor(Colors.pinkAccent),
-          ),
+
         ],
       );
 
