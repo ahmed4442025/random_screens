@@ -1,23 +1,30 @@
 # Flutter Random screens UI 
 
 [GitHub Link /lib/facebook_app](https://github.com/ahmed4442025/random_screens/tree/master/lib/facebook_app)
-![Mobile Screenshot](screenshots/face1.png)
+
+<img src="https://github.com/ahmed4442025/random_screens/blob/master/screenshots/face2.png" width="350">
+-------------------------
+
 
 
 [GitHub Link /lib/coffe_shop](https://github.com/ahmed4442025/random_screens/tree/master/lib/coffe_shop)
-![Mobile Screenshot](screenshots/coffe1.png)
+
+<img src="https://github.com/ahmed4442025/random_screens/blob/master/screenshots/coffee1.png" width="350">
+
 
 
 [GitHub Link /lib/wallet_app](https://github.com/ahmed4442025/random_screens/tree/master/lib/wallet_app)
-![Mobile Screenshot](screenshots/wallet1.png)
 
-![Mobile Screenshot](screenshots/wallet2.png)
+<img src="https://github.com/ahmed4442025/random_screens/blob/master/screenshots/wallet1.png" width="350">
 
-![Mobile Screenshot](screenshots/face2.png)
 
-![Mobile Screenshot](screenshots/face3.png)
+<img src="https://github.com/ahmed4442025/random_screens/blob/master/screenshots/wallet2.png" width="350">
 
-![Mobile Screenshot](screenshots/coffe2.png)
+<img src="https://github.com/ahmed4442025/random_screens/blob/master/screenshots/face1.png" width="350">
 
-![Mobile Screenshot](screenshots/coffe3.png)
+<img src="https://github.com/ahmed4442025/random_screens/blob/master/screenshots/face3.png" width="350">
+
+<img src="https://github.com/ahmed4442025/random_screens/blob/master/screenshots/coffee2.png" width="350">
+
+<img src="https://github.com/ahmed4442025/random_screens/blob/master/screenshots/coffee3.png" width="350">
 
