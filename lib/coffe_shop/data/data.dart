@@ -3,7 +3,7 @@ import 'package:screens_ui/coffe_shop/models/coffee_type.dart';
 import '../models/Coffee_model.dart';
 
 class DataCoffee {
-  static List<CoffeeType> coffeeTypes = [
+  static final List<CoffeeType> coffeeTypes = [
     CoffeeType(name: 'Cappuccino', isSelected: true),
     CoffeeType(name: 'Galão'),
     CoffeeType(name: 'Latte'),

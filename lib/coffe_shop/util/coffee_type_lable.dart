@@ -13,15 +13,27 @@ class CoffeeTypeLable extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding: const EdgeInsets.only(right: 25),
-      child: InkWell(
-        onTap: onTap,
-        child: Text(
-          coffeeType.name,
-          style: TextStyle(
-              fontSize: 18,
-              fontWeight: FontWeight.bold,
-              color: coffeeType.isSelected ? Colors.orange : Colors.white),
-        ),
+      child: Column(
+        children: [
+          InkWell(
+            onTap: onTap,
+            child: Text(
+              coffeeType.name,
+              style: TextStyle(
+                  fontSize: 18,
+                  fontWeight: FontWeight.bold,
+                  color: coffeeType.isSelected ? Colors.orange : Colors.white),
+            ),
+          ),
+          if (coffeeType.isSelected)
+            const Padding(
+              padding: EdgeInsets.only(top: 5),
+              child: CircleAvatar(
+                backgroundColor: Colors.orange,
+                radius: 5,
+              ),
+            )
+        ],
       ),
     );
   }

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:screens_ui/coffe_shop/data/data.dart';
+import 'package:screens_ui/coffe_shop/util/coffee_card.dart';
 import 'package:screens_ui/coffe_shop/util/coffee_type_lable.dart';
 import 'package:screens_ui/coffe_shop/util/text_search.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
@@ -16,8 +17,13 @@ class _CoffeeHomeState extends State<CoffeHome> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      theme:
-          ThemeData(brightness: Brightness.dark, primarySwatch: Colors.orange),
+      // theme
+      theme: ThemeData(
+          brightness: Brightness.dark,
+          primarySwatch: Colors.orange,
+          textTheme: TextTheme(
+            bodyText2: TextStyle(color: Colors.white.withOpacity(.9)),
+          )),
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: Colors.grey.shade900,
@@ -45,12 +51,12 @@ class _CoffeeHomeState extends State<CoffeHome> {
               // welcome
               Text('Find the best coffee for you',
                   style: GoogleFonts.bebasNeue(fontSize: 60)),
-              SizedBox(
+              const SizedBox(
                 height: 15,
               ),
               // search bar
-              TextSearch(),
-              SizedBox(
+              const TextSearch(),
+              const SizedBox(
                 height: 15,
               ),
               // coffee types
@@ -66,11 +72,20 @@ class _CoffeeHomeState extends State<CoffeHome> {
                   },
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 15,
               ),
               // coffee offers
-
+              SizedBox(
+                height: 380,
+                child: ListView.builder(
+                  scrollDirection: Axis.horizontal,
+                  itemCount: DataCoffee.coffeeList.length,
+                  itemBuilder: (BuildContext context, int index) {
+                    return CoffeeCard(coffee: DataCoffee.coffeeList[index]);
+                  },
+                ),
+              ),
             ],
           ),
         ),
@@ -78,7 +93,7 @@ class _CoffeeHomeState extends State<CoffeHome> {
         // bottomNavigationBar
         bottomNavigationBar: CurvedNavigationBar(
           color: Colors.grey.shade800,
-          backgroundColor: Colors.grey.shade900,
+          backgroundColor: Colors.transparent,
           items: [
             Icon(
               Icons.home,
