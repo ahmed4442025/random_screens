@@ -37,7 +37,7 @@ class _WalletAppViewState extends State<WalletAppView> {
         child: ListView(
           children: [
             // app bar
-            box20(),
+            // box20(),
             myAppBar(),
             box30(),
             // visa cards
@@ -90,7 +90,7 @@ class _WalletAppViewState extends State<WalletAppView> {
   Widget viasaCards() => Column(
         children: [
           SizedBox(
-            height: 200,
+            height: 170,
             child: PageView(
               controller: _pageController,
               children: [

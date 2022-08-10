@@ -18,9 +18,9 @@ class CardTrans extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.spaceBetween,
       children: [
         Container(
-          padding: EdgeInsets.all(20),
-          width: 90,
-          height: 90,
+          padding: const EdgeInsets.all(20),
+          width: 80,
+          height: 80,
           decoration: BoxDecoration(
               color: Colors.white70,
               borderRadius: BorderRadius.circular(15),
@@ -34,7 +34,7 @@ class CardTrans extends StatelessWidget {
             image: AssetImage(imgPath),
           ),
         ),
-        SizedBox(
+        const SizedBox(
           width: 20,
         ),
         Column(
@@ -42,16 +42,16 @@ class CardTrans extends StatelessWidget {
           children: [
             Text(
               label,
-              style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+              style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
             ),
             Text(
               description,
-              style: TextStyle(fontSize: 15, color: Colors.grey),
+              style: const TextStyle(fontSize: 15, color: Colors.grey),
             )
           ],
         ),
-        Spacer(),
-        Icon(Icons.arrow_forward_ios)
+        const Spacer(),
+        const Icon(Icons.arrow_forward_ios)
       ],
     );
   }

@@ -13,11 +13,10 @@ class CardVisa extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.all(25),
+      padding: const EdgeInsets.symmetric(horizontal: 25, vertical: 10),
       decoration:
           BoxDecoration(color: clr, borderRadius: BorderRadius.circular(20)),
       child: Column(
-        // mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Row(
@@ -33,8 +32,8 @@ class CardVisa extends StatelessWidget {
             ],
           ),
           _text('\$$balance', fSize: 34),
-          SizedBox(
-            height: 30,
+          const SizedBox(
+            height: 20,
           ),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,

@@ -13,8 +13,8 @@ class CardButton extends StatelessWidget {
       children: [
         Container(
           padding: EdgeInsets.all(20),
-          width: 90,
-          height: 90,
+          width: 80,
+          height: 80,
           decoration: BoxDecoration(
               color: Colors.white70,
               borderRadius: BorderRadius.circular(15),
@@ -34,7 +34,7 @@ class CardButton extends StatelessWidget {
         Text(
           label,
           style: const TextStyle(
-              fontSize: 18, color: Colors.grey, fontWeight: FontWeight.bold),
+              fontSize: 17, color: Colors.grey, fontWeight: FontWeight.bold),
         ),
       ],
     );
