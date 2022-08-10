@@ -1,9 +1,9 @@
 # Flutter FaceBook screens UI 
 
 
-![Mobile Screenshot](../screenshots/face1.png)
+<img src="https://github.com/ahmed4442025/random_screens/blob/master/screenshots/face1.png" width="350">
 
-![Mobile Screenshot](../screenshots/face2.png)
+<img src="https://github.com/ahmed4442025/random_screens/blob/master/screenshots/face2.png" width="350">
 
-![Mobile Screenshot](../screenshots/face3.png)
+<img src="https://github.com/ahmed4442025/random_screens/blob/master/screenshots/face3.png" width="350">
 

@@ -1,4 +1,4 @@
-# Flutter Random screens UI 
+# Flutter Random screens UI
 
 [GitHub Link /lib/facebook_app](https://github.com/ahmed4442025/random_screens/tree/master/lib/facebook_app)
 

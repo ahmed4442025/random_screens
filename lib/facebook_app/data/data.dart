@@ -13,9 +13,9 @@ final List<User> onlineUsers = [
         'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80',
   ),
   const User(
-    name: 'Jane Doe',
+    name: 'The rock',
     imageUrl:
-        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80',
+        'https://www.dmarge.com/wp-content/uploads/2021/01/dwayne-the-rock-.jpg',
   ),
   const User(
     name: 'Matthew Hinkle',
@@ -23,9 +23,9 @@ final List<User> onlineUsers = [
         'https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1331&q=80',
   ),
   const User(
-    name: 'Amy Smith',
+    name: 'Floyd Morris',
     imageUrl:
-        'https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80',
+        'https://caricom.org/wp-content/uploads/Floyd-Morris-Remake-1024x879-1.jpg',
   ),
   const User(
     name: 'Ed Morris',
@@ -33,9 +33,9 @@ final List<User> onlineUsers = [
         'https://images.unsplash.com/photo-1521119989659-a83eee488004?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=664&q=80',
   ),
   const User(
-    name: 'Carolyn Duncan',
+    name: 'john wick',
     imageUrl:
-        'https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80',
+        'https://i.insider.com/5d66d21e6f24eb396b6c8192?width=700',
   ),
   const User(
     name: 'Paul Pinnock',
@@ -43,18 +43,18 @@ final List<User> onlineUsers = [
         'https://images.unsplash.com/photo-1519631128182-433895475ffe?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
   ),
   const User(
-      name: 'Elizabeth Wong',
+      name: 'Alan Alda',
       imageUrl:
-          'https://images.unsplash.com/photo-1515077678510-ce3bdf418862?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjF9&auto=format&fit=crop&w=675&q=80'),
+          'https://i0.wp.com/factrepublic.com/wp-content/uploads/2017/10/1.Alan-Alda.jpg'),
   const User(
     name: 'James Lathrop',
     imageUrl:
         'https://images.unsplash.com/photo-1528892952291-009c663ce843?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=592&q=80',
   ),
   const User(
-    name: 'Jessie Samson',
+    name: 'Alex zhang',
     imageUrl:
-        'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80',
+        'https://inst.eecs.berkeley.edu/~cs194-26/fa17/upload/files/proj4/cs194-26-adq/asianguy.jpg',
   ),
   const User(
     name: 'David Brooks',
@@ -62,9 +62,9 @@ final List<User> onlineUsers = [
         'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80',
   ),
   const User(
-    name: 'Jane Doe',
+    name: 'The rock',
     imageUrl:
-        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80',
+        'https://www.dmarge.com/wp-content/uploads/2021/01/dwayne-the-rock-.jpg',
   ),
   const User(
     name: 'Matthew Hinkle',
@@ -72,9 +72,9 @@ final List<User> onlineUsers = [
         'https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1331&q=80',
   ),
   const User(
-    name: 'Amy Smith',
+    name: 'Floyd Morris',
     imageUrl:
-        'https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80',
+        'https://caricom.org/wp-content/uploads/Floyd-Morris-Remake-1024x879-1.jpg',
   ),
   const User(
     name: 'Ed Morris',
@@ -82,9 +82,9 @@ final List<User> onlineUsers = [
         'https://images.unsplash.com/photo-1521119989659-a83eee488004?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=664&q=80',
   ),
   const User(
-    name: 'Carolyn Duncan',
+    name: 'john wick',
     imageUrl:
-        'https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80',
+        'https://i.insider.com/5d66d21e6f24eb396b6c8192?width=700',
   ),
   const User(
     name: 'Paul Pinnock',
@@ -92,18 +92,18 @@ final List<User> onlineUsers = [
         'https://images.unsplash.com/photo-1519631128182-433895475ffe?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
   ),
   const User(
-      name: 'Elizabeth Wong',
+      name: 'Alan Alda',
       imageUrl:
-          'https://images.unsplash.com/photo-1515077678510-ce3bdf418862?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjF9&auto=format&fit=crop&w=675&q=80'),
+          'https://i0.wp.com/factrepublic.com/wp-content/uploads/2017/10/1.Alan-Alda.jpg'),
   const User(
     name: 'James Lathrop',
     imageUrl:
         'https://images.unsplash.com/photo-1528892952291-009c663ce843?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=592&q=80',
   ),
   const User(
-    name: 'Jessie Samson',
+    name: 'Alex zhang',
     imageUrl:
-        'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80',
+        'https://inst.eecs.berkeley.edu/~cs194-26/fa17/upload/files/proj4/cs194-26-adq/asianguy.jpg',
   ),
 ];
 

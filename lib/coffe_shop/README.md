@@ -1,9 +1,8 @@
-# Flutter Coffee screens UI 
+# Flutter Coffee screens UI
 
 
-![Mobile Screenshot](../screenshots/coffe1.png)
+<img src="https://github.com/ahmed4442025/random_screens/blob/master/screenshots/coffe1.png" width="350">
 
-![Mobile Screenshot](../screenshots/coffe2.png)
+<img src="https://github.com/ahmed4442025/random_screens/blob/master/screenshots/coffe2.png" width="350">
 
-![Mobile Screenshot](../screenshots/coffe3.png)
-
+<img src="https://github.com/ahmed4442025/random_screens/blob/master/screenshots/coffe3.png" width="350">
