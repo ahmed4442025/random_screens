@@ -13,21 +13,51 @@ class CoffeeCard extends StatelessWidget {
       padding: const EdgeInsets.all(8.0),
       child: Container(
         decoration: BoxDecoration(
-            color: Colors.black54, borderRadius: BorderRadius.circular(15)),
-        padding: const EdgeInsets.all(10),
+            gradient: LinearGradient(
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+              colors: [Colors.grey.shade800, Colors.grey.shade900],
+            ),
+            color: Colors.black54,
+            borderRadius: BorderRadius.circular(15)),
+        padding: const EdgeInsets.all(15),
         width: 200,
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
+            // image
             ClipRRect(
               borderRadius: BorderRadius.circular(15),
-              child: Image.asset(
-                coffee.img,
-                fit: BoxFit.cover,
-                height: 200,
-                width: 200,
+              child: Stack(
+                children: [
+                  Image.asset(
+                    coffee.img,
+                    fit: BoxFit.cover,
+                    height: 200,
+                    width: 200,
+                  ),
+                  // rate
+                  Positioned(
+                      right: 0,
+                      child: Container(
+                        decoration: BoxDecoration(
+                            color: Colors.grey.withOpacity(.5),
+                            borderRadius: const BorderRadius.only(
+                                bottomLeft: Radius.circular(25))),
+                        width: 60,
+                        height: 30,
+                        child: Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            const Icon(Icons.star_rate_rounded, color: Color(0xffD17842),),
+                            Text(coffee.rate.toString())
+                          ],
+                        ),
+                      ))
+                ],
               ),
             ),
+            // details
             SizedBox(
               height: 100,
               child: Column(
@@ -53,24 +83,34 @@ class CoffeeCard extends StatelessWidget {
                 ],
               ),
             ),
+            // add to card
             Padding(
-              padding: const EdgeInsets.symmetric(horizontal:  8.0),
+              padding: const EdgeInsets.symmetric(horizontal: 8.0),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  Text(
-                    "\$${coffee.price.toString()}",
-                    style: const TextStyle(fontSize: 20),
-                    maxLines: 1,
+                  Row(
+                    children: [
+                      const Text(
+                        "\$ ",
+                        style: TextStyle(fontSize: 20, color: Color(0xffFF9800)),
+                        maxLines: 1,
+                      ),
+                      Text(
+                        coffee.price.toString(),
+                        style: const TextStyle(fontSize: 20, fontWeight: FontWeight.w600),
+                        maxLines: 1,
+                      ),
+                    ],
                   ),
                   Container(
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(4),
-                      color: Colors.orange,
-                    ),
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(4),
+                        color: const Color(0xffcc8811),
+                      ),
                       width: 30,
                       height: 30,
-                      child: Icon(Icons.add)),
+                      child: const Icon(Icons.add)),
                 ],
               ),
             ),

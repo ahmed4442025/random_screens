@@ -1,16 +1,23 @@
-# screens_ui
+# Flutter Random screens UI 
 
-A new Flutter project.
+[GitHub Link /lib/facebook_app](https://github.com/ahmed4442025/random_screens/tree/master/lib/facebook_app)
+![Mobile Screenshot](screenshots/face1.png)
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+[GitHub Link /lib/coffe_shop](https://github.com/ahmed4442025/random_screens/tree/master/lib/coffe_shop)
+![Mobile Screenshot](screenshots/coffe1.png)
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+[GitHub Link /lib/wallet_app](https://github.com/ahmed4442025/random_screens/tree/master/lib/wallet_app)
+![Mobile Screenshot](screenshots/wallet1.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Mobile Screenshot](screenshots/wallet2.png)
+
+![Mobile Screenshot](screenshots/face2.png)
+
+![Mobile Screenshot](screenshots/face3.png)
+
+![Mobile Screenshot](screenshots/coffe2.png)
+
+![Mobile Screenshot](screenshots/coffe3.png)
+

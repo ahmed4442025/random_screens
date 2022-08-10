@@ -17,26 +17,31 @@ class DataCoffee {
         name: 'capputcino',
         option: 'whipped milk, milk and espresso',
         img: 'assets/coffee_app/capputcino.jpg',
-        price: 6.2),
+        price: 6.2,
+        rate: 4.2),
     CoffeeModel(
         name: 'Espresso',
         option: 'Espresso',
         img: 'assets/coffee_app/classic_coffe.jpg',
-        price: 2.0),
+        price: 2.0,
+        rate: 4.5),
     CoffeeModel(
         name: 'ice Coffee',
         option: 'Espresso , milk and ice',
         img: 'assets/coffee_app/ice_coffe.jpg',
-        price: 7.5),
+        price: 7.5,
+        rate: 4.1),
     CoffeeModel(
         name: 'Latte',
         option: 'whipped milk, milk and espresso',
         img: 'assets/coffee_app/late.jpg',
-        price: 6.5),
+        price: 6.5,
+        rate: 4.9),
     CoffeeModel(
         name: 'mocha',
         option: 'whipped cream, milk, espresso',
         img: 'assets/coffee_app/moka.jpg',
-        price: 5),
+        price: 5,
+        rate: 4.8),
   ];
 }

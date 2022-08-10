@@ -31,9 +31,11 @@ class _CoffeeHomeState extends State<CoffeHome> {
         appBar: AppBar(
           backgroundColor: Colors.transparent,
           elevation: 0,
-          leading: const Icon(
-            Icons.menu,
-          ),
+          leading: ClipRRect(
+              borderRadius: BorderRadius.circular(50),
+              child: const Icon(
+                Icons.menu,
+              )),
           actions: const [
             Icon(
               Icons.person,
@@ -94,6 +96,7 @@ class _CoffeeHomeState extends State<CoffeHome> {
         bottomNavigationBar: CurvedNavigationBar(
           color: Colors.grey.shade800,
           backgroundColor: Colors.transparent,
+          buttonBackgroundColor: Colors.orange.withOpacity(.9),
           items: [
             Icon(
               Icons.home,
